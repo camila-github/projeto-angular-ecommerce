@@ -1,0 +1,83 @@
+<form (submit)="updateProduct(updateProductForm)" #updateProductForm="ngForm" class="mb-4">
+
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <label>Nome do produto</label>
+        <input type="text" class="form-control"  [(ngModel)]="productDetails.productName" required name="productName" ngModel/>
+
+      </div>
+      <div class="col-md-6 mb-3">
+        <label for="validationCustom02">ID da Categoria</label>
+        <input type="text" class="form-control"  [(ngModel)]="productDetails.categoryId" required name="categoryId" ngModel/>
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <label for="validationCustom03">Descrição</label>
+        <textarea class="form-control"
+          placeholder="Enter Product Description"
+          [(ngModel)]="productDetails.description"
+          required
+          name="description"
+          ngModel></textarea>
+      </div>
+      <div class="col-md-6 mb-3">
+        <label>Rating</label>
+        <select class="custom-select" required name="product_rating" ngModel>
+          <option selected value="">Choose...</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <label for="validationCustom03">Cor do Produto</label>
+        <input type="text"
+          class="form-control"
+          id="validationCustom03"
+          [(ngModel)]="productDetails.color"
+          required
+          name="product_color"
+        ngModel/>
+      </div>
+      <div class="col-md-6 mb-3">
+        <label>isAvailable</label>
+        <select class="custom-select"  required >
+          <option selected value="">Choose...</option>
+          <option value="1">yes</option>
+          <option value="0">no</option>
+        </select>
+      </div>
+
+    </div>
+
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <label>Preço do produto</label>
+        <input type="text" class="form-control"
+          name="product_price"
+          [(ngModel)]="productDetails.price"
+          required
+          ngModel
+          />
+      </div>
+      <div class="col-md-6 mb-3">
+        <label>Reviews</label>
+        <select class="custom-select">
+          <option selected value="">Choose...</option>
+          <option value="its good">1</option>
+          <option value="its ok ok ">2</option>
+        </select>
+      </div>
+
+    </div>
+
+    <button class="btn btn-primary" type="submit">Atualização do produto</button>
+  </form>
+

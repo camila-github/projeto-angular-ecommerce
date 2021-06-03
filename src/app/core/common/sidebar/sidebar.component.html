@@ -1,0 +1,21 @@
+<section>
+  <ul class="list-group list-group-flush">
+
+    <li class="list-group-item list-group-item-warning" >
+      <a routerLink="products">Visualizar todos os produtos</a>
+    </li>
+
+    <li class="list-group-item list-group-item-warning">
+      <a routerLink="products/product-create">Criar novo produto</a>
+    </li>
+
+    <li class="list-group-item list-group-item-warning"
+        *ngFor=" let cat of categoryList">
+          <a routerLink="products/category/{{ cat.id }}">{{ cat.categoryName }}</a>
+    </li>
+
+  </ul>
+  <br>
+</section>
+
+

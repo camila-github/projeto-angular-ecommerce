@@ -1,0 +1,51 @@
+<div class="card mt-4">
+  <a routerLink="">
+    <img class="card-img-top"
+        src="{{ productDetails.productImg }}"
+        alt=""
+        width="300"
+        height="400">
+  </a>
+  <img class="card-img-top img-fluid" src="" alt="">
+
+  <div class="card-body">
+    <h3 class="card-title">
+      {{ productDetails.productName | uppercase }}
+    </h3>
+
+    <a routerLink="products/product-update/{{ productDetails.id }}"
+      color="accent">
+      Atualizar produto
+    </a> |
+
+    <a routerLink="products/product-delete/{{ productDetails.id }}"
+      color="warn">
+      Deletar produto
+    </a>
+    <br>
+
+    <h4> {{productDetails.price}} {{productDetails.offer}}</h4>
+    <p class="card-text"> {{ productDetails.description}}</p>
+
+    <small class="text-danger"> Stars : {{ productDetails.rating }}
+      <app-star [rating]="productDetails.rating"></app-star>
+    </small>
+  </div>
+</div>
+
+<!-- /.card -->
+<div class="card card-outline-secondary my-4">
+  <div class="card-header">
+    Detalhe do produto
+  </div>
+
+  <div class="card-body">
+    <p>{{productDetails.reviews}}</p>
+    <small class="text-muted">
+      Postado por Anonymous em {{ productDetails.releaseDate }}
+    </small>
+    <hr>
+
+    <a routerLink="" class="btn btn-success">Deixe um comentário</a>
+  </div>
+</div>

@@ -1,0 +1,260 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "categoryId": 1,
+      "productName": "Vestido Longo",
+      "description": "Vestido longo florado ",
+      "productImg": "/assets/img/vestido2.jpeg",
+      "price": 145,
+      "is_available": true,
+      "rating": 4.5,
+      "reviews": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "vendor_name": "",
+      "warranty": 9,
+      "offer": "(10% off)",
+      "releaseDate": "20/03/2021"
+    },
+    {
+      "id": 3,
+      "categoryId": 3,
+      "productName": "Blusa",
+      "description": "Blusa Seda Estampada Manga 7/8",
+      "productImg": "/assets/img/blusa1.jpeg",
+      "price": 120,
+      "is_available": true,
+      "rating": 2,
+      "reviews": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "vendor_name": "",
+      "warranty": 9,
+      "offer": "(15% off)",
+      "releaseDate": "20/03/2021"
+    },
+    {
+      "id": 4,
+      "categoryId": 1,
+      "productName": "Vestido ",
+      "description": "Vestido babado ponteiras - Rosa",
+      "productImg": "/assets/img/vestido3.jpeg",
+      "price": 240,
+      "is_available": true,
+      "rating": 4.8,
+      "reviews": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "vendor_name": "",
+      "warranty": 9,
+      "offer": "",
+      "releaseDate": "27/03/2021"
+    },
+    {
+      "id": 5,
+      "categoryId": 4,
+      "productName": "Bolsa de Tricô",
+      "description": "Bolsa Artesanal De Tricô",
+      "productImg": "/assets/img/bolsa1.jpeg",
+      "price": 90,
+      "is_available": true,
+      "rating": 1,
+      "reviews": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "vendor_name": "",
+      "warranty": 9,
+      "offer": "(25% off)",
+      "releaseDate": "12/04/2021"
+    },
+    {
+      "id": 6,
+      "categoryId": 4,
+      "productName": "Bolsa",
+      "description": "Bolsa Feminina Transversal Textura Croco Pallas",
+      "productImg": "/assets/img/bolsa2.jpeg",
+      "price": 79,
+      "is_available": true,
+      "rating": 3.5,
+      "reviews": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "vendor_name": "",
+      "warranty": 2,
+      "offer": "(18% off)",
+      "releaseDate": "12/04/2021"
+    },
+    {
+      "id": 7,
+      "categoryId": 1,
+      "productName": "Vestido",
+      "description": "Vestido rosa florado de manga longa",
+      "productImg": "/assets/img/vestido4.jpeg",
+      "price": 40,
+      "is_available": true,
+      "rating": 5,
+      "reviews": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "vendor_name": "",
+      "warranty": 54,
+      "offer": "(5% off)",
+      "releaseDate": "01/05/2021"
+    },
+    {
+      "id": 8,
+      "categoryId": 2,
+      "productName": "Sandália com Laço",
+      "description": "Sandália com Laço Amarelo - Salto Alto",
+      "productImg": "/assets/img/sandalia2.jpeg",
+      "price": 399,
+      "is_available": true,
+      "rating": 2,
+      "reviews": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "vendor_name": "",
+      "warranty": 9,
+      "offer": "(45% off)",
+      "releaseDate": "01/05/2021"
+    },
+    {
+      "id": 9,
+      "categoryId": 1,
+      "productName": "Vestido Jeans",
+      "description": "Vestido Jeans Longo",
+      "rating": 1,
+      "price": "249",
+      "productImg": "/assets/img/vestido5.jpeg",
+      "isAvailable": 1,
+      "color": "azul",
+      "reviews": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "releaseDate": "01/05/2021"
+    },
+    {
+      "id": 10,
+      "categoryId": 3,
+      "productName": "Blusa com renda",
+      "description": "Blusa Tule com renda - Vermelha",
+      "productImg": "/assets/img/blusa2.jpeg",
+      "price": 118,
+      "is_available": true,
+      "rating": 3.9,
+      "reviews": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "vendor_name": "",
+      "warranty": 9,
+      "offer": "",
+      "releaseDate": "01/05/2021"
+    },
+    {
+      "id": 11,
+      "categoryId": 1,
+      "productName": "Vestido",
+      "description": "Vestido curto rodado - Verde Florado",
+      "productImg": "/assets/img/vestido6.jpeg",
+      "price": 240,
+      "is_available": true,
+      "rating": 4.2,
+      "reviews": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "vendor_name": "179",
+      "warranty": 9,
+      "offer": "(25% off)",
+      "releaseDate": "11/05/2021"
+    },
+    {
+      "id": 12,
+      "categoryId": 2,
+      "productName": "Sandália",
+      "description": "Sandália Couro Parafinado Caramelo",
+      "rating": 2,
+      "price": "459",
+      "productImg": "/assets/img/sandalia3.jpeg",
+      "isAvailable": 1,
+      "reviews": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "releaseDate": "16/05/2021"
+    },
+    {
+      "id": 13,
+      "categoryId": 1,
+      "productName": "Vestido",
+      "description": "Vestido curto com abertura lateral - Verde",
+      "productImg": "/assets/img/vestido7.jpeg",
+      "price": 180,
+      "is_available": true,
+      "rating": 5,
+      "reviews": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "vendor_name": "",
+      "warranty": 54,
+      "offer": "(5% off)",
+      "releaseDate": "16/05/2021"
+    },
+    {
+      "id": 14,
+      "categoryId": 4,
+      "productName": "Bolsa",
+      "description": "Bolsa Feminina- media ombro - Transversal",
+      "rating": 2,
+      "price": 210,
+      "productImg": "/assets/img/bolsa3.jpg",
+      "isAvailable": 1,
+      "color": "marron",
+      "reviews": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "offer": "(15% off)",
+      "releaseDate": "16/05/2021"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "Vestidos"
+    },
+    {
+      "id": 2,
+      "categoryName": "Sandálias"
+    },
+    {
+      "id": 3,
+      "categoryName": "Blusas"
+    },
+    {
+      "id": 4,
+      "categoryName": "Bolsas"
+    }
+  ],
+  "contact": [
+    {
+      "id": 1,
+      "name": "Jorge Diego",
+      "phone": "55 11 2345-2345",
+      "email": "jorge.diego@email.com.br"
+    },
+    {
+      "id": 2,
+      "name": "Guga Melo",
+      "phone": "55 21 1212-2345",
+      "email": "guga.melo@email.com.br"
+    },
+    {
+      "id": 3,
+      "name": "Leticia",
+      "phone": "55 84 4567-1111",
+      "email": "leticia@email.com.br"
+    },
+    {
+      "id": 4,
+      "name": "Angela",
+      "phone": "55 11 2121-2121",
+      "email": "angela@email.com.br"
+
+    },
+    {
+      "id": 2,
+      "name": "Pedro",
+      "phone": "55 11 2222-2222",
+      "email": "pedro@email.com.br"
+    },
+    {
+      "id": 3,
+      "name": "Camila",
+      "phone": "55 41 1111-1212",
+      "email": "camila@email.com.br"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

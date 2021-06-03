@@ -1,0 +1,20 @@
+@import '~font-awesome/css/font-awesome.min.css';
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+/* You can add global styles to this file, and also import other style files */
+
+footer {
+    padding-top: 30px!important;
+}
+
+.card-title a, .card-body h3{
+  color:#7ba05b;
+}
+
+
+.btn-primary, .foot-text, .navbar-custom {
+  background-color: #7ba05b;
+}
+
+html, body { height: 100%; width: 100%; }
+body { margin: 0; padding: 0}

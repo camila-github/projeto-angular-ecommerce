@@ -1,0 +1,40 @@
+<!--  <div class="container">
+    <div class="row" *ngFor="let contato of contatoList">
+      <div class="col" >
+        <span class="name">{{ contato.nome }}</span><br/>
+        <span class="text-muted">  {{ contato.telefone }}</span><br/>
+        <span class="fa fa-comments text-muted c-info" data-toggle="tooltip"></span>
+        <span class="visible-xs"> <span class="text-muted">  {{ contato.email }}</span><br/></span>
+      </div>
+    </div>
+  </div>
+
+<div class="row">
+  <div class="col-lg-4 col-md-6 mb-4" *ngFor="let contato of contatoList">
+    <div class="card border-primary mb-3" style="max-width: 18rem;" >
+      <div class="card-header list-group-item-warning"></div>
+      <div class="card-body" >
+        <span class="card-title"> {{ contato.nome }}</span><br/>
+        <span class="text-muted">  {{ contato.telefone }}</span><br/>
+        <span class="fa fa-comments text-muted c-info" data-toggle="tooltip"></span>
+        <span class="visible-xs"> <span class="text-muted">  {{ contato.email }}</span><br/></span>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+
+<h2>Contatos</h2>
+<div class="body-contact">
+  <div class="container ">
+    <div class="card list-group-item-warning" *ngFor="let contact of contactList">
+      <div class="circle"></div>
+      <div class="content">
+        <h5>{{ contact.name }}</h5>
+        <p>{{ contact.phone }}</p>
+        <a href="#">{{ contact.email }}</a>
+      </div>
+    </div>
+  </div>
+</div>
+
