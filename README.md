@@ -62,7 +62,7 @@ Resources
 
 ## Paginas Web
 
-- Rota: 
+- Rota Home: 
 
 ```` 
 Rota Pai:
@@ -73,7 +73,7 @@ Arquivo: app.routing.module.ts
 
 <img src="https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/img/img-home.png" alt="home">
 
-- Rota:  
+- Rota About:  
 
 ````
 Rota Pai:
@@ -84,7 +84,7 @@ Arquivo: app.routing.module.ts
 
 <img src="https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/img/img-about.png" alt="" itemprop="logo">
 
-- Rota:  
+- Rota Contact:  
 
 ````
 Rota Pai:
@@ -99,7 +99,7 @@ Arquivo: app.routing.module.ts
 
 <img src="https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/img/img-contact3.png" alt="" itemprop="logo">
 
-- Rota:  
+- Rota ProductsViewAll:  
 ```` 
 Rota Pai:
 Arquivo: app.routing.module.ts
@@ -116,8 +116,10 @@ Arquivo: products.routing.module.ts
 
 <img src="https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/img/img-visualizar-todos-os-produtos2.png" alt="" itemprop="logo">
 
+<img src="https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/img/img-visualizar-todos-os-produtos3.png" alt="" itemprop="logo">
 
-- Rota:
+
+- Rota ProductsViewAllByCategory:
 ````
 Rota Pai: 
 Arquivo: app.routing.module.ts
@@ -134,7 +136,7 @@ Arquivo: products.routing.module.ts
 
 <img src="https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/img/img-visualizar-por-categoria-sandalia.png" alt="" itemprop="logo">
 
-- Rota:
+- Rota ProductView:
 ````
 Rota Pai: 
 Arquivo: app.routing.module.ts
@@ -152,7 +154,7 @@ Arquivo: products.routing.module.ts
 <img src="https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/img/img-visualize-detalhe-do-produto2.png" alt="" itemprop="logo">
 
 
-- Rota:  
+- Rota ProductCreate:  
 ```` 
 Rota Pai: 
 Arquivo: app.routing.module.ts
