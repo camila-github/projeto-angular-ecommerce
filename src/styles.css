@@ -7,14 +7,24 @@ footer {
     padding-top: 30px!important;
 }
 
-.card-title a, .card-body h3{
+.card-title a,
+.card-body h3{
   color:#7ba05b;
 }
 
-
-.btn-primary, .foot-text, .navbar-custom {
+.btn-primary,
+.foot-text,
+.navbar-custom {
   background-color: #7ba05b;
 }
 
-html, body { height: 100%; width: 100%; }
-body { margin: 0; padding: 0}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0
+}

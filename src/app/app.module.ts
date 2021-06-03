@@ -9,8 +9,6 @@ import { MatSliderModule } from '@angular/material/slider';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/common/core.module';
 import { AppRoutingModule } from './app.routing.module';
-
-
 @NgModule({
   declarations:
     [

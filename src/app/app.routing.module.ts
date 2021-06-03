@@ -1,10 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { AboutComponent } from './core/pages/about/about.component';
 
+import { AboutComponent } from './core/pages/about/about.component';
 import { ContactComponent } from './core/pages/contact/contact.component';
 import { HomeComponent } from './core/pages/home/home.component';
-
 
 const ROUTES: Routes = [
   { path: '', component: HomeComponent },
