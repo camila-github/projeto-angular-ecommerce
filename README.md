@@ -30,7 +30,7 @@ as paginas web serão mostradas no navegador através das rotas que foram criada
 
 - Uso do RXJS Observable: O Observable é uma funcionalidade da biblioteca do rxjs, que é instalada quando se cria uma nova aplicação do angular. Com seu uso, é possivel lidar com transferencia de dados assincrona, algo que em muitas vezes é semelhante as Promisses do Javascript. O uso do RXJS Observable é feito dentro dos arquivos 'service.ts'
 
-- Segregrado aplicação em modulos: Utilizado o forChild: O forChild é utilizado em modulos filhos. Isso diferencia do modulo Pai, que no projeto, o arquivo pai, é o arquivo 'app.module.ts'
+- Segregrado aplicação em modulos: Utilizado o loadChildren: O loadChildren é utilizado em modulos filhos. Isso diferencia do modulo Pai, que no projeto, o arquivo pai, é o arquivo 'app.module.ts'
 
 
 ## Uso do projeto com download feito no github
