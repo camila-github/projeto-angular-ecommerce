@@ -52,9 +52,7 @@ Resources
 
 /products
 /categories
-/contact
-/comments
-/profile 
+/contact 
 
 ````
 
