@@ -1,6 +1,6 @@
 ## Projeto: Criação de paginas web (e-commerce) utilizando Angular 
 
-- O intuito do projeto foi criar um e-commerce, utilizando Angular + Json-Server + BootStrap + MaterializeCss.
+- O intuito do projeto foi criar um e-commerce para simular o acesso as paginas web com uso de rotas (conceito SPA - Single-Page Application). Utilizado ferramenta como Angular + Json-Server + BootStrap + MaterializeCss.
 
 ## Ferramentas Utilizadas
 
@@ -65,7 +65,7 @@ Resources
 - Rota: 
 
 ```` 
-Pai:
+Rota Pai:
 Arquivo: app.routing.module.ts 
 @NgModule: forRoot() 
 { path: 'home', component: HomeComponent }
@@ -76,7 +76,7 @@ Arquivo: app.routing.module.ts
 - Rota:  
 
 ````
-Pai:
+Rota Pai:
 Arquivo: app.routing.module.ts
 @NgModule: forRoot()
 { path: 'about', component: AboutComponent }
@@ -87,7 +87,7 @@ Arquivo: app.routing.module.ts
 - Rota:  
 
 ````
-Pai:
+Rota Pai:
 Arquivo: app.routing.module.ts
 @NgModule: forRoot()
 { path: 'contact', component: ContactComponent }
@@ -101,12 +101,12 @@ Arquivo: app.routing.module.ts
 
 - Rota:  
 ```` 
-Pai:
+Rota Pai:
 Arquivo: app.routing.module.ts
 @NgModule: forRoot()
 { path: 'products', loadChildren: () => import('./components/products/products.module').then(m => m.ProductsModule) }
 
-Filho:
+Rota Filho:
 Arquivo: products.routing.module.ts
 @NgModule: loadChildren()
 { path: '', component: ProductsViewAllComponent }
@@ -119,12 +119,12 @@ Arquivo: products.routing.module.ts
 
 - Rota:
 ````
-Pai: 
+Rota Pai: 
 Arquivo: app.routing.module.ts
 @NgModule: forRoot()
 { path: 'products', loadChildren: () => import('./components/products/products.module').then(m => m.ProductsModule) }
 
-Filho:
+Rota Filho:
 Arquivo: products.routing.module.ts
 @NgModule: loadChildren()
 { path: 'category/:id', component: ProductsViewAllByCategoryComponent}
@@ -136,12 +136,12 @@ Arquivo: products.routing.module.ts
 
 - Rota:
 ````
-Pai: 
+Rota Pai: 
 Arquivo: app.routing.module.ts
 @NgModule: forRoot()
 { path: 'products', loadChildren: () => import('./components/products/products.module').then(m => m.ProductsModule) }
 
-Filho: 
+Rota Filho: 
 Arquivo: products.routing.module.ts
 @NgModule: loadChildren()
 { path: 'product/:id', component: ProductViewComponent }
@@ -154,12 +154,12 @@ Arquivo: products.routing.module.ts
 
 - Rota:  
 ```` 
-Pai: 
+Rota Pai: 
 Arquivo: app.routing.module.ts
 @NgModule: forRoot()
 { path: 'products', loadChildren: () => import('./components/products/products.module').then(m => m.ProductsModule) }
 
-Filho: 
+Rota Filho: 
 Arquivo: products.routing.module.ts
 @NgModule: loadChildren()
 { path: 'product-create', component: ProductCreateComponent }
