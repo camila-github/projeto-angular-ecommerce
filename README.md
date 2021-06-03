@@ -64,21 +64,36 @@ Resources
 
 ## Paginas Web
 
-- Rota: Arquivo: app.routing.module.ts 
-        @NgModule: forRoot() 
-        ````{ path: 'home', component: HomeComponent }````
+- Rota: 
+
+```` 
+Pai:
+Arquivo: app.routing.module.ts 
+@NgModule: forRoot() 
+{ path: 'home', component: HomeComponent }
+````
 
 <img src="https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/img/img-home.png" alt="home">
 
-- Rota:  Arquivo: app.routing.module.ts
-         @NgModule: forRoot()
-         ````{ path: 'about', component: AboutComponent }````
+- Rota:  
+
+````
+Pai:
+Arquivo: app.routing.module.ts
+@NgModule: forRoot()
+{ path: 'about', component: AboutComponent }
+````
 
 <img src="https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/img/img-about.png" alt="" itemprop="logo">
 
-- Rota:  Arquivo: app.routing.module.ts
-         @NgModule: forRoot()
-         ````{ path: 'contact', component: ContactComponent }````
+- Rota:  
+
+````
+Pai:
+Arquivo: app.routing.module.ts
+@NgModule: forRoot()
+{ path: 'contact', component: ContactComponent }
+````
 
 <img src="https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/img/img-contact1.png" alt="" itemprop="logo">
 
@@ -86,62 +101,70 @@ Resources
 
 <img src="https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/img/img-contact3.png" alt="" itemprop="logo">
 
-- Rota:  Arquivo: app.routing.module.ts
-         @NgModule: forRoot()
-         ````{
-              path: 'products',
-              loadChildren: () => import('./components/products/products.module').then(m => m.ProductsModule)
-            }````
+- Rota:  
+```` 
+Pai:
+Arquivo: app.routing.module.ts
+@NgModule: forRoot()
+{ path: 'products', loadChildren: () => import('./components/products/products.module').then(m => m.ProductsModule) }
 
-         Arquivo: products.routing.module.ts
-         @NgModule: loadChildren()
-         ````{ path: '', component: ProductsViewAllComponent }````
+Filho:
+Arquivo: products.routing.module.ts
+@NgModule: loadChildren()
+{ path: '', component: ProductsViewAllComponent }
+````
 
 <img src="https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/img/img-visualizar-todos-os-produtos1.png" alt="" itemprop="logo">
 
 <img src="https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/img/img-visualizar-todos-os-produtos2.png" alt="" itemprop="logo">
 
 
-- Rota:  Arquivo: app.routing.module.ts
-         @NgModule: forRoot()
-         ````{
-              path: 'products',
-              loadChildren: () => import('./components/products/products.module').then(m => m.ProductsModule)
-            }````
+- Rota:
+````
+Pai: 
+Arquivo: app.routing.module.ts
+@NgModule: forRoot()
+{ path: 'products', loadChildren: () => import('./components/products/products.module').then(m => m.ProductsModule) }
 
-         Arquivo: products.routing.module.ts
-         @NgModule: loadChildren()
-         ````{ path: 'category/:id', component: ProductsViewAllByCategoryComponent}````
+Filho:
+Arquivo: products.routing.module.ts
+@NgModule: loadChildren()
+{ path: 'category/:id', component: ProductsViewAllByCategoryComponent}
+````
 
 <img src="https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/img/img-visualizar-por-categoria-blusas.png" alt="" itemprop="logo">
 
 <img src="https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/img/img-visualizar-por-categoria-sandalia.png" alt="" itemprop="logo">
 
-- Rota:  Arquivo: app.routing.module.ts
-         @NgModule: forRoot()
-         ````{
-              path: 'products',
-              loadChildren: () => import('./components/products/products.module').then(m => m.ProductsModule)
-            }````
+- Rota:
+````
+Pai: 
+Arquivo: app.routing.module.ts
+@NgModule: forRoot()
+{ path: 'products', loadChildren: () => import('./components/products/products.module').then(m => m.ProductsModule) }
 
-         Arquivo: products.routing.module.ts
-         @NgModule: loadChildren()
-         ````{ path: 'product/:id', component: ProductViewComponent }````
+Filho: 
+Arquivo: products.routing.module.ts
+@NgModule: loadChildren()
+{ path: 'product/:id', component: ProductViewComponent }
+````
 
 <img src="https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/img/img-visualize-detalhe-do-produto1.png" alt="" itemprop="logo">
 
 <img src="https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/img/img-visualize-detalhe-do-produto2.png" alt="" itemprop="logo">
 
 
-- Rota:  Arquivo: app.routing.module.ts
-         @NgModule: forRoot()
-         ````{
-              path: 'products',
-              loadChildren: () => import('./components/products/products.module').then(m => m.ProductsModule)
-            }````
+- Rota:  
+```` 
+Pai: 
+Arquivo: app.routing.module.ts
+@NgModule: forRoot()
+{ path: 'products', loadChildren: () => import('./components/products/products.module').then(m => m.ProductsModule) }
 
-         Arquivo: products.routing.module.ts
-         @NgModule: loadChildren()
-         ````{ path: 'product-create', component: ProductCreateComponent },````
+Filho: 
+Arquivo: products.routing.module.ts
+@NgModule: loadChildren()
+{ path: 'product-create', component: ProductCreateComponent }
+````
 
 <img src="https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/img/img-criar-produto.png" alt="" itemprop="logo">
