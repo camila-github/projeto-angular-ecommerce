@@ -65,5 +65,5 @@ Resources
 
 - Rota:   ```` { path: 'about', component: AboutComponent } ````
 
-<img src="C:\2PR\25.FRONT-BACK\14---\projeto-angular-ecommerce\docs\img\img-about" alt="" width="388" height="108" itemprop="logo">
+<img src="https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/img/img-about.png" alt="" width="388" height="108" itemprop="logo">
 
