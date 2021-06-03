@@ -68,6 +68,7 @@ Resources
 Rota Pai:
 Arquivo: app.routing.module.ts 
 @NgModule: forRoot() 
+{ path: '', component: HomeComponent },
 { path: 'home', component: HomeComponent }
 ````
 
