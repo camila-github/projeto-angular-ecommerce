@@ -42,6 +42,7 @@ as paginas web serão mostradas no navegador através das rotas que foram criada
 
 #### BackEnd - Para rodar api db.json
 
+- Caso nao tiver o json-server instale usando o comando: `npm install -g json-server`
 - Na pasta app/server execute o comando `json-server --watch db.json` 
 - Acesse localhost:3000 para ver api rodando. 
 - Em 'Resources' constará as rotas que estão sendo executadas:
