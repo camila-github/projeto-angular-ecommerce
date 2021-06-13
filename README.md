@@ -75,8 +75,6 @@ Arquivo: app.routing.module.ts
 { path: 'home', component: HomeComponent }
 ````
 
-<img src="https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/img/img-home.png" alt="home">
-
 - Rota About:  
 
 ````
@@ -86,8 +84,6 @@ Arquivo: app.routing.module.ts
 { path: 'about', component: AboutComponent }
 ````
 
-<img src="https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/img/img-about.png" alt="" itemprop="logo">
-
 - Rota Contact:  
 
 ````
@@ -96,10 +92,6 @@ Arquivo: app.routing.module.ts
 @NgModule: forRoot()
 { path: 'contact', component: ContactComponent }
 ````
-
-<img src="https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/img/img-contact1.png" alt="" itemprop="logo">
-
-<img src="https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/img/img-contact2.png" alt="" itemprop="logo">
 
 - Rota ProductsViewAll:  
 ```` 
@@ -114,13 +106,6 @@ Arquivo: products.routing.module.ts
 { path: '', component: ProductsViewAllComponent }
 ````
 
-<img src="https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/img/img-visualizar-todos-os-produtos1.png" alt="" itemprop="logo">
-
-<img src="https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/img/img-visualizar-todos-os-produtos2.png" alt="" itemprop="logo">
-
-<img src="https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/img/img-visualizar-todos-os-produtos3.png" alt="" itemprop="logo">
-
-
 - Rota ProductsViewAllByCategory:
 ````
 Rota Pai: 
@@ -133,10 +118,6 @@ Arquivo: products.routing.module.ts
 @NgModule: forChild()
 { path: 'category/:id', component: ProductsViewAllByCategoryComponent}
 ````
-
-<img src="https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/img/img-visualizar-por-categoria-blusas.png" alt="" itemprop="logo">
-
-<img src="https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/img/img-visualizar-por-categoria-sandalia.png" alt="" itemprop="logo">
 
 - Rota ProductView:
 ````
@@ -151,11 +132,6 @@ Arquivo: products.routing.module.ts
 { path: 'product/:id', component: ProductViewComponent }
 ````
 
-<img src="https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/img/img-visualize-detalhe-do-produto1.png" alt="" itemprop="logo">
-
-<img src="https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/img/img-visualize-detalhe-do-produto2.png" alt="" itemprop="logo">
-
-
 - Rota ProductCreate:  
 ```` 
 Rota Pai: 
@@ -168,5 +144,3 @@ Arquivo: products.routing.module.ts
 @NgModule: forChild()
 { path: 'product-create', component: ProductCreateComponent }
 ````
-
-<img src="https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/img/img-criar-produto.png" alt="" itemprop="logo">
