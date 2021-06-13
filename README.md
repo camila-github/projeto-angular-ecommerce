@@ -1,6 +1,6 @@
 ## Projeto: Criação de paginas web (e-commerce) utilizando Angular 
 
-- O intuito do projeto foi criar um e-commerce para simular o acesso as paginas web com uso de rotas (conceito SPA - Single-Page Application). Utilizado ferramenta como Angular + Json-Server + BootStrap + MaterializeCss.
+- O intuito do projeto foi criar um e-commerce para simular o acesso as paginas web com uso de rotas (conceito SPA - Single-Page Application). Utilizado ferramentas como Angular + Json-Server + BootStrap + MaterializeCss.
 
 ## Ferramentas Utilizadas
 
@@ -15,12 +15,12 @@
 
 - Utilizado os comandos do @angular/cli para criação de modulos, componentes, rotas, service e interface.
 
-- Criação de Rotas para que os componentes possam ser acessados utilizado as rotas, desta forma
+- Criação de Rotas para que os componentes possam ser acessados utilizando as rotas, desta forma
 as paginas web serão mostradas no navegador através das rotas que foram criadas (Conceito SAP Single-Page Application)
 
 - Padronizado a estrutura de pastas do projeto, criando componentes com seus respectivos modulos:
  
-    Criado componentes que podem ser compartilhado com outras aplicações (pasta 'app/shared')
+    Criado componentes que podem ser compartilhados com outras aplicações (pasta 'app/shared')
 
     Criado componentes comuns que serão compartilhados com outros componentes dentro da propria aplicação (pasta 'app/core/common' e pasta 'app/core/pages').
 
@@ -44,7 +44,7 @@ as paginas web serão mostradas no navegador através das rotas que foram criada
 
 - Caso nao tiver o json-server instale usando o comando: `npm install -g json-server`
 - Na pasta app/server execute o comando `json-server --watch db.json` 
-- Acesse localhost:3000 para ver api rodando. 
+- Acesse http://localhost:3000/ para ver api rodando. 
 - Em 'Resources' constará as rotas que estão sendo executadas:
 
 ````
@@ -61,7 +61,6 @@ Resources
 - Na pasta raiz execute `ng serve` para iniciar servidor do angular.
 
 ## Paginas Web
-
 - Rota Home: 
 
 ```` 
@@ -169,3 +168,7 @@ Arquivo: products.routing.module.ts
 ````
 
 <img src="https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/img/img-criar-produto.png" alt="" itemprop="logo">
+
+## Vídeo de demonstração do aplicativo
+
+![Video]()

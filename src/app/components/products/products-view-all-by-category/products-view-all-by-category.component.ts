@@ -4,7 +4,6 @@ import { ActivatedRoute } from '@angular/router';
 import { Product } from '../../../interfaces/product';
 import { ProductsService } from '../products.service';
 import { Category } from '../../../interfaces/category';
-
 @Component({
   selector: 'app-products-view-all-by-category',
   templateUrl: './products-view-all-by-category.component.html'
