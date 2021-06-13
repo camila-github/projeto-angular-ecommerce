@@ -60,7 +60,11 @@ Resources
 
 - Na pasta raiz execute `ng serve` para iniciar servidor do angular.
 
-## Paginas Web
+## Vídeo de demonstração do aplicativo
+
+![Video](https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/video/demo-angular-ecommerce.gif)
+
+## Paginas Web (Rotas)
 - Rota Home: 
 
 ```` 
@@ -96,8 +100,6 @@ Arquivo: app.routing.module.ts
 <img src="https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/img/img-contact1.png" alt="" itemprop="logo">
 
 <img src="https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/img/img-contact2.png" alt="" itemprop="logo">
-
-<img src="https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/img/img-contact3.png" alt="" itemprop="logo">
 
 - Rota ProductsViewAll:  
 ```` 
@@ -168,7 +170,3 @@ Arquivo: products.routing.module.ts
 ````
 
 <img src="https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/img/img-criar-produto.png" alt="" itemprop="logo">
-
-## Vídeo de demonstração do aplicativo
-
-![Video](https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/video/demo-angular-ecommerce.gif)
