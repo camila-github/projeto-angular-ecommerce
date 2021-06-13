@@ -171,4 +171,4 @@ Arquivo: products.routing.module.ts
 
 ## Vídeo de demonstração do aplicativo
 
-![Video]()
+![Video](https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/video/demo-angular-ecommerce.gif)
