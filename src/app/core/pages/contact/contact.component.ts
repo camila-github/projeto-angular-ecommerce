@@ -18,14 +18,5 @@ export class ContactComponent implements OnInit {
       this.contactList = data;
     });
   }
-
-  //listar(): void {
-    //this.contatosService.getContato().subscribe(data => this.contatos = data);
-  //}
-
-  // listar(): any {
-  //   return this.contatos;
-  // }
-
 }
 
