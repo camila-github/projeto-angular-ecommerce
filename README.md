@@ -60,6 +60,24 @@ Resources
 
 - Na pasta raiz execute `ng serve` para iniciar servidor do angular.
 
+
+#### Update
+
+14-11-2021
+-  Publicado arquivo db.json no site https://my-json-server.typicode.com/ .
+-  Realizado deploy do projeto via pasta docs no github, o mesmo realiza a consulta no db.json que foi publicado.
+-  Utilizado a referencia abaixo para deploy do projeto 
+
+  [https://www.youtube.com/watch?v=PbgVbCb3zuE&list=PLqsayW8DhUmu5tMEdZxnLsv5aO9cHMNtj&index=2](https://www.youtube.com/watch?v=PbgVbCb3zuE&list=PLqsayW8DhUmu5tMEdZxnLsv5aO9cHMNtj&index=2)
+
+- Utilizado referencia abaixo para publicar arquivo json-server 
+
+  [https://www.youtube.com/watch?v=bqAF3sC0OlI&list=PLuXkauUmG1ZFtBL9A9r-YMHpMuXSaBKos&index=33&t=3s](https://www.youtube.com/watch?v=bqAF3sC0OlI&list=PLuXkauUmG1ZFtBL9A9r-YMHpMuXSaBKos&index=33&t=3s )
+  
+## Projeto Publicado no link abaixo:
+
+  [https://camila-github.github.io/projeto-angular-ecommerce/](https://camila-github.github.io/projeto-angular-ecommerce/)
+
 ## Vídeo de demonstração do aplicativo
 
 ![Video](https://github.com/camila-github/projeto-angular-ecommerce/blob/main/video-demo/demo-angular-ecommerce.gif)
