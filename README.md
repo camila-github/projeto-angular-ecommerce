@@ -62,7 +62,7 @@ Resources
 
 ## Vídeo de demonstração do aplicativo
 
-![Video](https://github.com/camila-github/projeto-angular-ecommerce/blob/main/docs/video/demo-angular-ecommerce.gif)
+![Video](https://github.com/camila-github/projeto-angular-ecommerce/blob/main/video-demo/demo-angular-ecommerce.gif)
 
 ## Paginas Web (Rotas)
 - Rota Home: 
