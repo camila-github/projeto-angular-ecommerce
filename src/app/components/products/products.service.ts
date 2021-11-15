@@ -11,7 +11,7 @@ import { Category } from 'src/app/interfaces/category';
 
 export class ProductsService {
 
-  private baseUrl = 'http://localhost:3000/products/';
+  private baseUrl = 'https://my-json-server.typicode.com/camila-github/projetos-backend-jsonserver/products/';
 
   constructor(private http: HttpClient) {}
 
@@ -45,13 +45,13 @@ export class ProductsService {
 
    // @Search By category
   searchCategoryProduct(categoryId): Observable<Product>{
-    const url = 'http://localhost:3000/products?categoryId=' + categoryId;
+    const url = 'https://my-json-server.typicode.com/camila-github/projetos-backend-jsonserver/products?categoryId=' + categoryId;
     return this.http.get<Product>(url);
   }
 
    // changing of sidebar
   getCategories(): Observable<Category>{
-    const url = 'http://localhost:3000/categories';
+    const url = 'https://my-json-server.typicode.com/camila-github/projetos-backend-jsonserver/categories';
     return this.http.get<Category>(url);
   }
 

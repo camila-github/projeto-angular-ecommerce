@@ -7,7 +7,7 @@ export class ContactService {
 
   constructor(private http: HttpClient) {}
 
-  private baseUrl = 'http://localhost:3000/contact/';
+  private baseUrl = 'https://my-json-server.typicode.com/camila-github/projetos-backend-jsonserver/contact/';
 
     // Get all contacts
   getContact(): Observable<Contact[]>{
